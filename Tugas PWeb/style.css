@@ -1,0 +1,100 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #0f0f0f; 
+    color: #e0e0e0;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #1a1a1a;
+    color: #39ff14; 
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 0 15px #39ff14;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #00ffff; 
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ff00ff; 
+}
+
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+    background-color: #1a1a1a;
+    box-shadow: 0 0 15px #00ffff;
+    border-radius: 10px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+h2 {
+    color: #ff00ff; 
+    border-bottom: 2px solid #ff00ff;
+    padding-bottom: 5px;
+}
+
+.karya-item {
+    border-left: 4px solid #00ffff;
+    padding-left: 10px;
+    margin-bottom: 15px;
+    background-color: #121212;
+    box-shadow: 0 0 10px #00ffff33;
+    padding: 10px;
+    border-radius: 6px;
+}
+
+input, textarea, select, button {
+    background-color: #222;
+    color: #39ff14;
+    border: 1px solid #39ff14;
+    padding: 8px;
+    border-radius: 5px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+input:focus, textarea:focus {
+    outline: none;
+    box-shadow: 0 0 10px #00ffff;
+}
+
+button {
+    background-color: #ff00ff;
+    color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background-color: #ff33cc;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #1a1a1a;
+    color: #00ffff;
+    box-shadow: 0 0 10px #00ffff;
+}
